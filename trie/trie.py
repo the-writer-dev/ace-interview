@@ -27,25 +27,37 @@ class Trie:
         n.is_end = True
         n.counter += 1
 
-    def dfs(self, node, prefix):
-        if node.is_end:
-            self.output.append((prefix + node.char, node.counter))
+    def dfs(self, n, prefix):
+        if n.is_end:
+            self.output.append((prefix + n.char, n.counter))
 
-        for child in node.children.values():
-            self.dfs(child, prefix + node.char)
+        for child in n.children.values():
+            self.dfs(child, prefix + n.char)
 
     def query(self, x):
         self.output = []
 
-        node = self.root
+        n = self.root
         for char in x:
-            if char in node.children:
-                node = node.children[char]
+            if char in n.children:
+                n = n.children[char]
             else:
                 return []
-
-        self.dfs(node, x[:-1])
+        
+        # currently n = 'w' -> 'h'
+        # prefix should be 'w'
+        self.dfs(n, x[:-1]) 
         return sorted(self.output, key=lambda x: x[1], reverse=True)
+# 
+#          w
+#       /  |  \ 
+#      a   o   h 
+#     / \  |   | \
+#    s   r r   a  e
+#          |   |   \
+#          d   t    r
+#                    \
+#                     e
 
 t = Trie()
 t.insert('was')
