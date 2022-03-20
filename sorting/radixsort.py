@@ -1,4 +1,5 @@
 # utilize the auxiliary arr to reduce the time complexity
+# analysis: O(n+k)/O(max(arr))
 def countingsort(arr, place):
     size = len(arr) 
     output = [0] * size
