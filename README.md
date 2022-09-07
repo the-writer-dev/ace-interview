@@ -16,7 +16,25 @@ Thus, I'm trying to compile all the knowledge/resources you need along with the 
 ### Binary Search 
 
 ## Strategy
-### Time management
+### Pick up the right language
+When you choose the language for technical interview, you might want to choose what is most comfortable to you. Java, C++, Python, or JavaScript are popular ones. Yet, I want you to choose the Python, or JavaScript with following reasons. 
+
+First, when you study problems, you will be stuck a lot. If you choose Rust, for example, you might find difficult time to find solutions. On the other hadn, you can easily find the resources for Python/JS. 
+
+Second, Python/Js have simpler syntax. When you're under pressure, you might loose your memory for syntax. Given that most interviews wouldn't allow you to google, Python/Js can be a safe bet to you.
+
+Here's the example for creating simple list of integers in Python and Java
+```python
+lst = []
+```
+
+```java
+List<Integer> list = new ArrayList<>();
+```
+Yet, if you're already super-familiar with Java/C++, ignore this and choose what you're most comfortable with.
+ 
+
+### Manage your time
 If we're given unlimited time for solving problems, we can eventually figure things out. Unforutnately, that wouldn't happen. Admittedly, It can be stressful when you're short on time, yet we can still pass the interviews successfuly if we have the proper strategy laid out on how we should spend time. 
 
 ## System
