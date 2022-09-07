@@ -16,6 +16,9 @@ Thus, I'm trying to compile all the knowledge/resources you need along with the 
 ### Binary Search 
 
 ## Strategy
+### Time management
+If we're given unlimited time for solving problems, we can eventually figure things out. Unforutnately, that wouldn't happen. Admittedly, It can be stressful when you're short on time, yet we can still pass the interviews successfuly if we have the proper strategy laid out on how we should spend time. 
+
 ## System
 
 ## Question you should ask to your interviewer and team 
