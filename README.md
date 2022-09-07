@@ -19,6 +19,11 @@ Thus, I'm trying to compile all the knowledge/resources you need along with the 
 ## System
 
 ## Question you should ask to your interviewer and team 
+- What teams would you belong?
+- What do your team do? 
+- What is the tech stack?
+- What would daily life look like as an engineer?
+
 
 ## Useful Links
 https://visualgo.net/en <br/>
