@@ -10,6 +10,3 @@ del example['key2']
 
 print(example)
 
-if example:
-    print("hello")
-
