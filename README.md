@@ -13,7 +13,6 @@ Thus, I'm trying to compile all the knowledge/resources you need along with the 
 # Table of Content
 ## Data Structure
 ## Algorithms
-### Binary Search 
 
 ## Strategy
 ### Pick up the right language
