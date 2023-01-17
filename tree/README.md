@@ -27,4 +27,5 @@ Make sure you know how to traverse in
 - Pre Order 
 - Post Order
 - Level Order
-- [Link](./traverse.py)
+
+Refer to [Link](./traverse.py) for code
