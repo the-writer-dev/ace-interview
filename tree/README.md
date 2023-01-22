@@ -21,11 +21,15 @@
 - binary search tree: left subtree of a node contains only nodes with keys lesser than the node’s key. right subtree of a node contains only nodes with keys greater than the node’s key.
 
 ## Traverse
-Traversing nodes in tree is essential to solve any tree related problems. 
-Make sure you know how to traverse in
+Traversing nodes in tree is essential to solve any tree related problems. Make sure you know how to traverse in
 - In Order 
 - Pre Order 
 - Post Order
 - Level Order
 
-Refer to [Link](./traverse.py) for code
+[Link](./traverse.py) for code
+
+## Calculate the depth of the tree
+
+[Max Depth of Tree](./maxdepth.py)
+[Min Depth of Tree](./mindepth.py)
