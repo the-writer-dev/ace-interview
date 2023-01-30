@@ -1,11 +1,11 @@
-from node import Node
+from node import ListNode
 from traverse import traverse
 
 
-head = Node(1)
-head.next = Node(2)
-head.next.next = Node(3)
-head.next.next.next = Node(4)
+head = ListNode(1)
+head.next = ListNode(2)
+head.next.next = ListNode(3)
+head.next.next.next = ListNode(4)
 
 # reverse the linked list
 # recursion

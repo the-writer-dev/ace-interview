@@ -1,4 +1,4 @@
-from node import Node
+from node import ListNode
 
 
 def traverse(head):
@@ -9,7 +9,7 @@ def traverse(head):
 
 
 def insert(head, data, pos):
-    new = Node(data)
+    new = ListNode(data)
     if pos == 0:
         new.next = head
         head = new
