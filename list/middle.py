@@ -1,5 +1,5 @@
-
 # find the middle node of the given linked list
+
 
 def middle(head):
     slow = fast = head

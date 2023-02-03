@@ -2,6 +2,7 @@
 
 # the idea is discussed in /graph/cycle_detection.py
 
+
 def findDuplicate(nums):
     if len(nums) < 2:
         return -1
@@ -20,5 +21,6 @@ def findDuplicate(nums):
 
     return slow
 
-nums = [1,3,4,2,2]
+
+nums = [1, 3, 4, 2, 2]
 print(findDuplicate(nums))
